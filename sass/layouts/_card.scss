@@ -30,6 +30,7 @@ body {
     background-color: $Dark-desaturated-blue-card-b;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-radius: 0.5rem 0 0 0.5rem;
 
     img:last-of-type {
       width: 350px;
@@ -107,6 +108,7 @@ body {
       grid-template-columns: 350px;
       grid-template-rows: 300px 600px;
       grid-template-areas: "img" "art";
+      border-radius: 0 0 0 0;
 
       img:first-of-type {
         display: none;

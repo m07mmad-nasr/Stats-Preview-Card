@@ -32,6 +32,7 @@ body main {
   background-color: hsl(244, 38%, 16%);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-radius: 0.5rem 0 0 0.5rem;
 }
 body main img:last-of-type {
   width: 350px;
@@ -109,6 +110,7 @@ body main article section span {
     grid-template-columns: 350px;
     grid-template-rows: 300px 600px;
     grid-template-areas: "img" "art";
+    border-radius: 0 0 0 0;
   }
   body main img:first-of-type {
     display: none;
